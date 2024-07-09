@@ -1,8 +1,23 @@
+# WeatherWise
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WeatherWise is a React.js app that provides weather updates based on user inputs using an external API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Current weather details
+- Responsive design
+
+## Technologies
+
+- React.js
+- OpenWeatherMap API
+
+## Usage
+
+1. Enter a city name and click "Search".
+2. View current weather, humidity, and other variable's values.
+
+---
+
+Made with ❤️ by [Lakshay Shokeen](https://github.com/Shokeencodes)
