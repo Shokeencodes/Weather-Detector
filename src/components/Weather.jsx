@@ -65,6 +65,20 @@ const Weather = () => {
 
     useEffect(() => {
         search("delhi");
+
+        const handleKeyDown = (event) => {
+            if (event.key === 'Enter') {
+                search(inputRef.current.value);
+            }
+        };
+
+        const inputElement = inputRef.current;
+        inputElement.addEventListener('keydown', handleKeyDown);
+
+        return () => {
+            inputElement.removeEventListener('keydown', handleKeyDown);
+        };
+        
     }, [])
 
   return (
